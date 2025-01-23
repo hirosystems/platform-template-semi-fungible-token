@@ -32,9 +32,7 @@ The [semi-fungible-token.clar](/examples/semi-fungible-token/contracts/semi-fung
 
 - `mint (..)` function dives into how an SFT can only be minted by the contract owner. The `mint` function requires the params of a `receipient` address, arbitrary `token-id` as an `uint`, and SFT `amount`.
 
-To add new contracts, follow detailed instructions at [Add new Contract](https://docs.hiro.so/clarinet/how-to-guides/how-to-add-contract).
-
-> **NOTE**: To use this example with Clarinet inside [Hiro Platform](https://platform.hiro.so), you can open the terminal session inside VS code by navigating to File -> View -> Terminal.
+To add new contracts, use [Clarinet](https://docs.hiro.so/stacks/clarinet).
 
 ## Resources and Inspiration
 
